@@ -1,0 +1,16 @@
+PODS:
+  - NKAdditionalGeometry (0.1.0)
+
+DEPENDENCIES:
+  - NKAdditionalGeometry (from `../`)
+
+EXTERNAL SOURCES:
+  NKAdditionalGeometry:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NKAdditionalGeometry: c8a0ecf723038feb21ab23abd2b200a33b1fbee2
+
+PODFILE CHECKSUM: bc395620827a0b320df6d2a58bf341741539d3aa
+
+COCOAPODS: 1.5.3

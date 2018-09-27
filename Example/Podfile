@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NKAdditionalGeometry_Example' do
+  pod 'NKAdditionalGeometry', :path => '../'
+
+  target 'NKAdditionalGeometry_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

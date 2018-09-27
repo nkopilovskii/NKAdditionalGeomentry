@@ -1,0 +1,6 @@
+framework module NKAdditionalGeometry {
+  umbrella header "NKAdditionalGeometry-umbrella.h"
+
+  export *
+  module * { export * }
+}
