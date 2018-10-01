@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B210D53216228FB00420750 /* NKVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B210D52216228FB00420750 /* NKVector.swift */; };
+		1B210D552162290800420750 /* CGVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B210D542162290800420750 /* CGVector.swift */; };
 		1B2B8FA6215D0DEC00559E60 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B8FA3215D0DEC00559E60 /* CGPoint.swift */; };
 		1B2B8FA7215D0DEC00559E60 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B8FA4215D0DEC00559E60 /* CGRect.swift */; };
 		1B2B8FA8215D0DEC00559E60 /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2B8FA5215D0DEC00559E60 /* CGSize.swift */; };
@@ -44,12 +46,14 @@
 /* Begin PBXFileReference section */
 		03B97B2C3A217A81DF58ABD7D89CA03C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		11CE7699DF83B824CEAC99C6085781ED /* Pods-NKAdditionalGeometry_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NKAdditionalGeometry_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B210D52216228FB00420750 /* NKVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKVector.swift; sourceTree = "<group>"; };
+		1B210D542162290800420750 /* CGVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGVector.swift; sourceTree = "<group>"; };
 		1B2B8FA3215D0DEC00559E60 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGPoint.swift; path = ../NKAdditionalGeometry/Classes/Extensions/CGPoint.swift; sourceTree = "<group>"; };
 		1B2B8FA4215D0DEC00559E60 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGRect.swift; path = ../NKAdditionalGeometry/Classes/Extensions/CGRect.swift; sourceTree = "<group>"; };
 		1B2B8FA5215D0DEC00559E60 /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGSize.swift; path = ../NKAdditionalGeometry/Classes/Extensions/CGSize.swift; sourceTree = "<group>"; };
-		1B2B8FA9215D0DF400559E60 /* NKPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NKPoint.swift; path = ../NKAdditionalGeometry/Classes/Protocols/NKPoint.swift; sourceTree = "<group>"; };
-		1B2B8FAA215D0DF400559E60 /* NKSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NKSize.swift; path = ../NKAdditionalGeometry/Classes/Protocols/NKSize.swift; sourceTree = "<group>"; };
-		1B2B8FAB215D0DF400559E60 /* NKRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NKRect.swift; path = ../NKAdditionalGeometry/Classes/Protocols/NKRect.swift; sourceTree = "<group>"; };
+		1B2B8FA9215D0DF400559E60 /* NKPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKPoint.swift; sourceTree = "<group>"; };
+		1B2B8FAA215D0DF400559E60 /* NKSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKSize.swift; sourceTree = "<group>"; };
+		1B2B8FAB215D0DF400559E60 /* NKRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKRect.swift; sourceTree = "<group>"; };
 		22FAF164D8BECE124BCCA5BFBC7B42DE /* Pods-NKAdditionalGeometry_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NKAdditionalGeometry_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		279C5EDC06CB32F152F6FE1A1A3E9FB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		377CAE779ABA2B28AD02FF5EE086BC96 /* Pods-NKAdditionalGeometry_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NKAdditionalGeometry_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -128,18 +132,21 @@
 			isa = PBXGroup;
 			children = (
 				1B2B8FA9215D0DF400559E60 /* NKPoint.swift */,
-				1B2B8FAB215D0DF400559E60 /* NKRect.swift */,
+				1B210D52216228FB00420750 /* NKVector.swift */,
 				1B2B8FAA215D0DF400559E60 /* NKSize.swift */,
+				1B2B8FAB215D0DF400559E60 /* NKRect.swift */,
 			);
-			path = Protocols;
+			name = Protocols;
+			path = NKAdditionalGeometry/Classes/Protocols;
 			sourceTree = "<group>";
 		};
 		1B2B8FA2215D0DC900559E60 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				1B2B8FA3215D0DEC00559E60 /* CGPoint.swift */,
-				1B2B8FA4215D0DEC00559E60 /* CGRect.swift */,
+				1B210D542162290800420750 /* CGVector.swift */,
 				1B2B8FA5215D0DEC00559E60 /* CGSize.swift */,
+				1B2B8FA4215D0DEC00559E60 /* CGRect.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -392,8 +399,10 @@
 				1B2B8FA8215D0DEC00559E60 /* CGSize.swift in Sources */,
 				1B2B8FA6215D0DEC00559E60 /* CGPoint.swift in Sources */,
 				1B2B8FA7215D0DEC00559E60 /* CGRect.swift in Sources */,
+				1B210D53216228FB00420750 /* NKVector.swift in Sources */,
 				1B2B8FAE215D0DF400559E60 /* NKRect.swift in Sources */,
 				E0F5D69BA20138C9BE09D81BDAE312E4 /* NKAdditionalGeometry-dummy.m in Sources */,
+				1B210D552162290800420750 /* CGVector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,8 +9,6 @@ import CoreGraphics
 
 extension CGRect: NKRect {
   
-  
-  
   public var center: CGPoint {
     get {
       return CGPoint(x: origin.x + width / 2, y: origin.y + height / 2)
@@ -31,7 +29,7 @@ extension CGRect: NKRect {
   }
   
   public var circumcircleRadius: CGFloat {
-    return sqrt(pow(origin.x - center.x, 2) + pow(origin.y - center.y, 2))
+    return origin.distance(to: center)
   }
   
   public func similar(from initial: CGRect, to destination: CGRect) -> CGRect {
@@ -41,37 +39,30 @@ extension CGRect: NKRect {
     return CGRect(origin: newOrigin, size: newSize)
   }
   
-  
   func scaled(with value: CGFloat) -> CGRect {
     let nSize = CGSize(width: width * value, height: width * value)
-    return new(with: nSize)
+    return CGRect(origin: origin, size: nSize)
   }
   
   func changedSize(with value: CGFloat) -> CGRect {
     let nSize = CGSize(width: width + value, height: height + value)
-    return new(with: nSize)
+    return CGRect(origin: origin, size: nSize)
   }
   
-  func new(with size: CGSize) -> CGRect {
-    var nRect = CGRect(origin: .zero, size: size)
-    nRect.center = center
-    return nRect
+  func incircleDevidePoints(_ count: Int) -> [CGPoint] {
+    return center.devidePoints(count: count, for: incircleRadius)
   }
   
-  func incircleDevidePoints(_ count: UInt) -> [CGPoint] {
-    guard count > 0 else { return [CGPoint]() }
-    
-    var points = [CGPoint]()
-    let radius = incircleRadius
-    let singleAngle = 2 * .pi / CGFloat(count)
-    let center = self.center
-    
-    (1...count).forEach { points.append(center.point(on: radius, with: singleAngle * CGFloat($0))) }
-    
-    return points
+  func incircleDevidePoint(for index: Int, in count: Int) -> CGPoint {
+    return center.point(on: incircleRadius, with: 2 * .pi * CGFloat(index) / CGFloat(count))
+  }
+ 
+  
+  func circumcircleDevidePoints(_ count: Int) -> [CGPoint] {
+    return center.devidePoints(count: count, for: circumcircleRadius)
   }
   
-  func incircleDevidePoint(for index: UInt, in count: UInt) -> CGPoint {
+  func circumcircleDevidePoint(for index: Int, in count: Int) -> CGPoint {
     return center.point(on: incircleRadius, with: 2 * .pi * CGFloat(index) / CGFloat(count))
   }
   

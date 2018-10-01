@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NKAdditionalGeometry'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NKAdditionalGeometry.'
+  s.summary          = 'Extensions for CoreGraphics types'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,18 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+The library is represented by a set of protocols and extensions of the CoreGraphics framework, which automate some geometric calculations.
                        DESC
 
   s.homepage         = 'https://github.com/nkopilovskii/NKAdditionalGeometry'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'nkopilovskii' => 'nikolay.k@powercode.us' }
+  s.author           = { 'nkopilovskii' => 'nkopilovskii@gmail.com' }
   s.source           = { :git => 'https://github.com/nkopilovskii/NKAdditionalGeometry.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/mkopilovskii'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '10.0'
+  s.swift_version  = '4.2'
   s.source_files = 'NKAdditionalGeometry/Classes/**/*'
   
   # s.resource_bundles = {
