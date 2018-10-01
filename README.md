@@ -97,7 +97,7 @@ func scaleToMax(in size: CGSize) -> CGSize
 
   - Parameters:
       - initial: `CGSize` in the coordinate system of which there is instance
-      - destination: `CGSize` n the coordinate system of which needs to transfer the current object
+      - destination: `CGSize` in the coordinate system of which needs to transfer the current object
   - Returns: `CGSize` corresponding to the instance, observing the ratios of the corresponding parameter given sizes
 */
 func similar(from initial: CGSize, to destination: CGSize) -> CGSize
@@ -201,7 +201,9 @@ pod 'NKAdditionalGeometry'
 
 ## Requirements
 iOS 10.0
+
 Xcode 9
+
 Swift 4.0
 
 ## Author

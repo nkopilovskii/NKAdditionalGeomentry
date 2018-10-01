@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		109C8D3EBBAF845C9A6F1152 /* Pods_NKAdditionalGeometry_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF018BC09596B94E09B9F001 /* Pods_NKAdditionalGeometry_Tests.framework */; };
+		1B210D5E2162549E00420750 /* radius.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B210D562162549D00420750 /* radius.png */; };
+		1B210D5F2162549E00420750 /* circumcircleRadius.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B210D572162549D00420750 /* circumcircleRadius.png */; };
+		1B210D602162549E00420750 /* center.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B210D582162549D00420750 /* center.png */; };
+		1B210D612162549E00420750 /* centralSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B210D592162549D00420750 /* centralSquare.png */; };
+		1B210D622162549E00420750 /* distance.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B210D5A2162549D00420750 /* distance.png */; };
+		1B210D632162549E00420750 /* incircleRadius.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B210D5B2162549D00420750 /* incircleRadius.png */; };
+		1B210D642162549E00420750 /* similarPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B210D5C2162549D00420750 /* similarPoint.png */; };
+		1B210D652162549E00420750 /* devidePoints.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B210D5D2162549E00420750 /* devidePoints.png */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,6 +37,14 @@
 
 /* Begin PBXFileReference section */
 		10CB63AAB5AFB136A6FB4CB6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1B210D562162549D00420750 /* radius.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radius.png; sourceTree = "<group>"; };
+		1B210D572162549D00420750 /* circumcircleRadius.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circumcircleRadius.png; sourceTree = "<group>"; };
+		1B210D582162549D00420750 /* center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = center.png; sourceTree = "<group>"; };
+		1B210D592162549D00420750 /* centralSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = centralSquare.png; sourceTree = "<group>"; };
+		1B210D5A2162549D00420750 /* distance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = distance.png; sourceTree = "<group>"; };
+		1B210D5B2162549D00420750 /* incircleRadius.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incircleRadius.png; sourceTree = "<group>"; };
+		1B210D5C2162549D00420750 /* similarPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = similarPoint.png; sourceTree = "<group>"; };
+		1B210D5D2162549E00420750 /* devidePoints.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = devidePoints.png; sourceTree = "<group>"; };
 		3109316B76382E086DAFA279 /* Pods-NKAdditionalGeometry_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKAdditionalGeometry_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NKAdditionalGeometry_Example/Pods-NKAdditionalGeometry_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3AB633AC9AB1D24EDF463215 /* Pods-NKAdditionalGeometry_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NKAdditionalGeometry_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NKAdditionalGeometry_Tests/Pods-NKAdditionalGeometry_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NKAdditionalGeometry_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NKAdditionalGeometry_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +118,14 @@
 		607FACD21AFB9204008FA782 /* Example for NKAdditionalGeometry */ = {
 			isa = PBXGroup;
 			children = (
+				1B210D582162549D00420750 /* center.png */,
+				1B210D592162549D00420750 /* centralSquare.png */,
+				1B210D572162549D00420750 /* circumcircleRadius.png */,
+				1B210D5D2162549E00420750 /* devidePoints.png */,
+				1B210D5A2162549D00420750 /* distance.png */,
+				1B210D5B2162549D00420750 /* incircleRadius.png */,
+				1B210D562162549D00420750 /* radius.png */,
+				1B210D5C2162549D00420750 /* similarPoint.png */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -246,8 +270,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				1B210D5E2162549E00420750 /* radius.png in Resources */,
+				1B210D622162549E00420750 /* distance.png in Resources */,
+				1B210D612162549E00420750 /* centralSquare.png in Resources */,
+				1B210D652162549E00420750 /* devidePoints.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				1B210D632162549E00420750 /* incircleRadius.png in Resources */,
+				1B210D602162549E00420750 /* center.png in Resources */,
+				1B210D642162549E00420750 /* similarPoint.png in Resources */,
+				1B210D5F2162549E00420750 /* circumcircleRadius.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
