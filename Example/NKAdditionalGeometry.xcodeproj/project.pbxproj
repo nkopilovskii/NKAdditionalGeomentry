@@ -118,14 +118,6 @@
 		607FACD21AFB9204008FA782 /* Example for NKAdditionalGeometry */ = {
 			isa = PBXGroup;
 			children = (
-				1B210D582162549D00420750 /* center.png */,
-				1B210D592162549D00420750 /* centralSquare.png */,
-				1B210D572162549D00420750 /* circumcircleRadius.png */,
-				1B210D5D2162549E00420750 /* devidePoints.png */,
-				1B210D5A2162549D00420750 /* distance.png */,
-				1B210D5B2162549D00420750 /* incircleRadius.png */,
-				1B210D562162549D00420750 /* radius.png */,
-				1B210D5C2162549D00420750 /* similarPoint.png */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -165,6 +157,14 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				1B210D582162549D00420750 /* center.png */,
+				1B210D592162549D00420750 /* centralSquare.png */,
+				1B210D572162549D00420750 /* circumcircleRadius.png */,
+				1B210D5D2162549E00420750 /* devidePoints.png */,
+				1B210D5A2162549D00420750 /* distance.png */,
+				1B210D5B2162549D00420750 /* incircleRadius.png */,
+				1B210D562162549D00420750 /* radius.png */,
+				1B210D5C2162549D00420750 /* similarPoint.png */,
 				F772F170BE442DDB71F04022 /* NKAdditionalGeometry.podspec */,
 				911190B6A625788E82511158 /* README.md */,
 				10CB63AAB5AFB136A6FB4CB6 /* LICENSE */,
