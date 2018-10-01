@@ -187,8 +187,24 @@ func circumcircleDevidePoints(_ count: Int) -> [CGPoint]
 func circumcircleDevidePoint(for index: Int, in count: Int) -> CGPoint
 ```
 
-*Visual representation:*
+## Visual representation
+#### ***Similar point***
+![image](https://github.com/nkopilovskii/NKAdditionalGeomentry/blob/master/Example/similarPoint.png?raw=true)
 
+#### ***Distance and difference between points***
+![image](https://github.com/nkopilovskii/NKAdditionalGeomentry/blob/master/Example/distance.png?raw=true)
+
+#### ***Divide points, angle***
+![image](https://github.com/nkopilovskii/NKAdditionalGeomentry/blob/master/Example/devidePoints.png?raw=true)
+
+#### ***Center, central square***
+![image](https://github.com/nkopilovskii/NKAdditionalGeomentry/blob/master/Example/centralSquare.png?raw=true)
+
+#### ***Incircle and circumcircle radiuses***
+![image](https://github.com/nkopilovskii/NKAdditionalGeomentry/blob/master/Example/radius.png?raw=true)
+
+#### ***Similar frame***
+![image](https://github.com/nkopilovskii/NKAdditionalGeomentry/blob/master/Example/similarFrame.png?raw=true)
 
 ## Installation
 
