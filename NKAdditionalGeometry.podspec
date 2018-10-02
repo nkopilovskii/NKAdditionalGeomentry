@@ -31,7 +31,7 @@ The library is represented by a set of protocols and extensions of the CoreGraph
   s.ios.deployment_target = '10.0'
   s.swift_version  = '4.2'
   s.source_files = 'NKAdditionalGeometry/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'NKAdditionalGeometry' => ['NKAdditionalGeometry/Assets/*.png']
   # }
