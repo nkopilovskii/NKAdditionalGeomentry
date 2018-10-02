@@ -143,8 +143,8 @@
 		1B2B8FA2215D0DC900559E60 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				1B2B8FA3215D0DEC00559E60 /* CGPoint.swift */,
 				1B210D542162290800420750 /* CGVector.swift */,
+				1B2B8FA3215D0DEC00559E60 /* CGPoint.swift */,
 				1B2B8FA5215D0DEC00559E60 /* CGSize.swift */,
 				1B2B8FA4215D0DEC00559E60 /* CGRect.swift */,
 			);
