@@ -397,12 +397,12 @@
 				1B2B8FAC215D0DF400559E60 /* NKPoint.swift in Sources */,
 				1B2B8FAD215D0DF400559E60 /* NKSize.swift in Sources */,
 				1B2B8FA8215D0DEC00559E60 /* CGSize.swift in Sources */,
+				1B210D552162290800420750 /* CGVector.swift in Sources */,
 				1B2B8FA6215D0DEC00559E60 /* CGPoint.swift in Sources */,
 				1B2B8FA7215D0DEC00559E60 /* CGRect.swift in Sources */,
 				1B210D53216228FB00420750 /* NKVector.swift in Sources */,
 				1B2B8FAE215D0DF400559E60 /* NKRect.swift in Sources */,
 				E0F5D69BA20138C9BE09D81BDAE312E4 /* NKAdditionalGeometry-dummy.m in Sources */,
-				1B210D552162290800420750 /* CGVector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

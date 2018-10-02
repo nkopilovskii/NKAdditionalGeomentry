@@ -5,7 +5,6 @@
 //  Created by Nick Kopilovskii on 10/1/18.
 //
 
-import Foundation
 import CoreGraphics
 
 extension CGVector: NKVector {
