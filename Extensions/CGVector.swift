@@ -9,7 +9,7 @@ import CoreGraphics
 
 extension CGVector: NKVector {
   
-  var length: CGFloat {
+  public var length: CGFloat {
     return sqrt(pow(dx, 2) + pow(dy, 2))
   }
   
