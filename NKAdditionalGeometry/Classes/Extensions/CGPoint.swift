@@ -27,7 +27,7 @@ extension CGPoint: NKPoint {
     return diffence(with: point).length
   }
   
-  func angle(with p1: CGPoint, _ p2: CGPoint) -> CGFloat {
+  public func angle(with p1: CGPoint, _ p2: CGPoint) -> CGFloat {
     let a = distance(to: p1)
     let b = distance(to: p2)
     let c = p1.distance(to: p2)
@@ -35,7 +35,7 @@ extension CGPoint: NKPoint {
     return acos((pow(a,2) + pow(b,2) - pow(c,2))/(2 * a * b))
   }
   
-  func devidePoints(count: Int, for radius: CGFloat) -> [CGPoint] {
+  public func devidePoints(count: Int, for radius: CGFloat) -> [CGPoint] {
     guard count > 0 else { return [CGPoint]() }
     
     var points = [CGPoint]()
@@ -45,7 +45,7 @@ extension CGPoint: NKPoint {
     return points
   }
   
-  func point(on distance: CGFloat, with angle: CGFloat) -> CGPoint {
+  public func point(on distance: CGFloat, with angle: CGFloat) -> CGPoint {
     return CGPoint(x: x + distance * cos(angle - .pi / 2), y: y + distance * sin(angle - .pi / 2))
   }
 

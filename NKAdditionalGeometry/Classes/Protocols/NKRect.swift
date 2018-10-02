@@ -7,7 +7,7 @@
 
 import CoreGraphics
 
-protocol NKRect {
+public protocol NKRect {
   
   /// Center of the rectangle in the parent system
   var center: CGPoint { set get }

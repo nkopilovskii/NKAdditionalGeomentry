@@ -39,30 +39,29 @@ extension CGRect: NKRect {
     return CGRect(origin: newOrigin, size: newSize)
   }
   
-  func scaled(with value: CGFloat) -> CGRect {
+  public func scaled(with value: CGFloat) -> CGRect {
     let nSize = CGSize(width: width * value, height: width * value)
     return CGRect(origin: origin, size: nSize)
   }
   
-  func changedSize(with value: CGFloat) -> CGRect {
+  public func changedSize(with value: CGFloat) -> CGRect {
     let nSize = CGSize(width: width + value, height: height + value)
     return CGRect(origin: origin, size: nSize)
   }
   
-  func incircleDevidePoints(_ count: Int) -> [CGPoint] {
+  public func incircleDevidePoints(_ count: Int) -> [CGPoint] {
     return center.devidePoints(count: count, for: incircleRadius)
   }
   
-  func incircleDevidePoint(for index: Int, in count: Int) -> CGPoint {
+  public func incircleDevidePoint(for index: Int, in count: Int) -> CGPoint {
     return center.point(on: incircleRadius, with: 2 * .pi * CGFloat(index) / CGFloat(count))
   }
  
-  
-  func circumcircleDevidePoints(_ count: Int) -> [CGPoint] {
+  public func circumcircleDevidePoints(_ count: Int) -> [CGPoint] {
     return center.devidePoints(count: count, for: circumcircleRadius)
   }
   
-  func circumcircleDevidePoint(for index: Int, in count: Int) -> CGPoint {
+  public func circumcircleDevidePoint(for index: Int, in count: Int) -> CGPoint {
     return center.point(on: incircleRadius, with: 2 * .pi * CGFloat(index) / CGFloat(count))
   }
   

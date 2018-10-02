@@ -7,7 +7,7 @@
 
 import CoreGraphics
 
-protocol NKPoint {
+public protocol NKPoint {
   /**
    Transformation of a point from one coordinate system to another
    

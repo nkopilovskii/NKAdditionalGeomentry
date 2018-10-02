@@ -7,7 +7,7 @@
 
 import CoreGraphics
 
-protocol NKVector {
+public protocol NKVector {
   /**
    Module (length) of the vector
   */

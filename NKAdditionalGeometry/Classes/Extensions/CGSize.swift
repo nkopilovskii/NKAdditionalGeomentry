@@ -8,6 +8,7 @@
 import CoreGraphics
 
 extension CGSize: NKSize {
+  
   public func scaleToMax(in size: CGSize) -> CGSize {
     var newWidth: CGFloat
     var newHeight: CGFloat
