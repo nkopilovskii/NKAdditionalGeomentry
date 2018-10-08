@@ -47,10 +47,10 @@
 		03B97B2C3A217A81DF58ABD7D89CA03C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		11CE7699DF83B824CEAC99C6085781ED /* Pods-NKAdditionalGeometry_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NKAdditionalGeometry_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1B210D52216228FB00420750 /* NKVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKVector.swift; sourceTree = "<group>"; };
-		1B210D542162290800420750 /* CGVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CGVector.swift; path = ../NKAdditionalGeometry/Classes/Extensions/CGVector.swift; sourceTree = "<group>"; };
-		1B2B8FA3215D0DEC00559E60 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGPoint.swift; path = ../NKAdditionalGeometry/Classes/Extensions/CGPoint.swift; sourceTree = "<group>"; };
-		1B2B8FA4215D0DEC00559E60 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGRect.swift; path = ../NKAdditionalGeometry/Classes/Extensions/CGRect.swift; sourceTree = "<group>"; };
-		1B2B8FA5215D0DEC00559E60 /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGSize.swift; path = ../NKAdditionalGeometry/Classes/Extensions/CGSize.swift; sourceTree = "<group>"; };
+		1B210D542162290800420750 /* CGVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGVector.swift; sourceTree = "<group>"; };
+		1B2B8FA3215D0DEC00559E60 /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		1B2B8FA4215D0DEC00559E60 /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		1B2B8FA5215D0DEC00559E60 /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
 		1B2B8FA9215D0DF400559E60 /* NKPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKPoint.swift; sourceTree = "<group>"; };
 		1B2B8FAA215D0DF400559E60 /* NKSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKSize.swift; sourceTree = "<group>"; };
 		1B2B8FAB215D0DF400559E60 /* NKRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKRect.swift; sourceTree = "<group>"; };
@@ -148,7 +148,8 @@
 				1B2B8FA5215D0DEC00559E60 /* CGSize.swift */,
 				1B2B8FA4215D0DEC00559E60 /* CGRect.swift */,
 			);
-			path = Extensions;
+			name = Extensions;
+			path = NKAdditionalGeometry/Classes/Extensions;
 			sourceTree = "<group>";
 		};
 		36A30D018C75A36E9A2617CB0382317A /* Pod */ = {
